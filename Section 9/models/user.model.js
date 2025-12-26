@@ -20,8 +20,8 @@ const userSchema = new Schema(
       required: true,
     },
   },
-    { timestamps: true }
+  { timestamps: true }
 );
 
-export const User = model('User', userSchema);
+export const User = model('user', userSchema);
 export default User;
